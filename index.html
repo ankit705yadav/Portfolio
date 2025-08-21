@@ -1,739 +1,648 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daily Tuition</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ankit's Portfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        />
+        <style>
+            body {
+                font-family: "Inter", monospace;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100 text-gray-800 min-h-screen font-mono p-4 sm:p-8">
+        <div
+            class="max-w-7xl mx-auto border-2 border-gray-400 p-4 rounded-lg shadow-xl bg-white"
+        >
+            <h1 class="text-xl sm:text-2xl font-bold mb-8">
+                Ankit Kumar Yadav
+            </h1>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Bootstrap css file -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
-    <!-- Font awesome icons-->
-    <script
-      src="https://kit.fontawesome.com/794573202a.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Magnific popup css file -->
-    <link
-      rel="stylesheet"
-      href="./vendor/Magnific-Popup/dist/magnific-popup.css"
-    />
-
-    <!-- Owl-carousel css file -->
-    <link
-      rel="stylesheet"
-      href="./vendor/owl-carousel/css/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./vendor/owl-carousel/css/owl.theme.default.min.css"
-    />
-
-    <!-- custom css file -->
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!-- Responsive css file -->
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
-
-  <body>
-    <!-- ##################################Start Header Area########################################### -->
-
-    <header class="header_area">
-      <div class="main-menu">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#"
-            ><img src="./img/logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mr-auto"></div>
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
+            <div class="mb-8">
+                <h2 class="text-lg font-bold mb-2">Quick Bio</h2>
+                <div
+                    class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 border-2 border-gray-400 p-4"
                 >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">pages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">blogs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <!-- ##################################End Header Area ###############################################-->
-
-    <!-- #################################### Start Main Area ###############################################-->
-    <main class="site-main">
-      <!-- ################################## Start Banner Area ############################################ -->
-      <section class="site-banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 site-title">
-              <h3 class="title-text">Hey</h3>
-              <h1 class="title-text text-upperclass">I am Ankit</h1>
-              <h4 class="title-text text-upperclass">
-                Seniour Wordpress Seveloper
-              </h4>
-              <div class="site-button">
-                <div class="d-flex flex-row flex-wrap">
-                  <button
-                    type="button"
-                    class="btn button primary-button mr-4 text-uppercase"
-                  >
-                    Hire me
-                  </button>
-                  <button
-                    type="button"
-                    class="btn button secondary-button text-uppercase"
-                  >
-                    Get CV
-                  </button>
+                    <div class="w-32 h-32 flex-shrink-0">
+                        <img
+                            src="https://avatars.githubusercontent.com/u/90278910?s=400&u=ce61478eacc736b6d023dafe715dba9598652510&v=4"
+                            alt="Profile photo of Ankit Kumar Yadav"
+                            class="w-full h-full object-cover border-2 border-gray-400"
+                        />
+                    </div>
+                    <div class="flex flex-col justify-center space-y-2">
+                        <h3 class="text-xl font-bold">Ankit Kumar Yadav</h3>
+                        <p class="text-sm">
+                            A results-driven professional with a passion for
+                            continuous learning and a proven ability to adapt to
+                            new challenges. I am dedicated to delivering
+                            high-quality outcomes by leveraging a growth mindset
+                            and a collaborative approach. Eager to apply my
+                            skills to make a meaningful contribution and drive
+                            impactful results in a dynamic environment.
+                        </p>
+                        <div class="flex space-x-4 pt-2">
+                            <a
+                                href="https://www.linkedin.com/in/ankit705yadav/"
+                                target="_blank"
+                                class="flex items-center space-x-1 hover:text-gray-900 transition-colors"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="w-4 h-4"
+                                >
+                                    <path
+                                        d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                                    />
+                                    <path
+                                        d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                                    />
+                                </svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a
+                                href="https://github.com/ankit705yadav/"
+                                target="_blank"
+                                class="flex items-center space-x-1 hover:text-gray-900 transition-colors"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="w-4 h-4"
+                                >
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                    ></path>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="col-lg-6 col-md-12 banner-image">
-              <img
-                src="./img/banner/banner-image.png"
-                alt="banner-img"
-                class="img-fluid"
-              />
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div class="border-2 border-gray-400 p-4">
+                    <h2 class="text-lg font-bold mb-4">Technical Skills</h2>
+                    <h3 class="font-semibold mt-4">Languages</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>JavaScript</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>Java</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>C++</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>C</span>
+                        </li>
+                    </ul>
+                    <h3 class="font-semibold mt-4">Frameworks</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>React</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>React-Native</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>Express.JS</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>SpringBoot</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="border-2 border-gray-400 p-4">
+                    <h2 class="text-lg font-bold mb-4">
+                        Developer Tools & Databases
+                    </h2>
+                    <h3 class="font-semibold mt-4">Developer Tools</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>Git</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>Redux</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>Zustand</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>FastAPI</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>Linux</span>
+                        </li>
+                    </ul>
+                    <h3 class="font-semibold mt-4">Databases</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>PostgreSQL</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>MySQL</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 text-green-600"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-8.72" />
+                                <path d="M22 4 12 14.01l-3-3" /></svg
+                            ><span>MongoDB</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- ################################## End Banner Area ############################################ -->
-
-      <!-- ################################## start About area ################################################# -->
-
-      <section class="about-area">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="about-image">
-                <img
-                  src="./img/about-us.png"
-                  alt="about-us"
-                  class="img-fluid"
-                />
-              </div>
+            <div class="mb-8">
+                <h2 class="text-lg font-bold mb-4">Education</h2>
+                <div class="border-2 border-gray-400 p-4 space-y-4">
+                    <div class="space-y-1">
+                        <h3 class="font-semibold">
+                            Bachelor Of Computer Application
+                        </h3>
+                        <p class="text-sm text-gray-600">
+                            New Horizon College | 2023
+                        </p>
+                    </div>
+                    <div class="space-y-1">
+                        <h3 class="font-semibold">PCMC</h3>
+                        <p class="text-sm text-gray-600">
+                            New Horizon College | 2020
+                        </p>
+                    </div>
+                    <div class="space-y-1">
+                        <h3 class="font-semibold">High School</h3>
+                        <p class="text-sm text-gray-600">
+                            Swamy Vivekananda High School | 2018
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-12 about-title">
-              <h2 class="text-uppercase pt-5">
-                <span>Let me</span>
-                <span>Introduce</span>
-                <span>Myself</span>
-              </h2>
-              <div class="paragraph py-4 w-75">
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                  deleniti nostrum nam debitis reiciendis sed fugiat doloremque
-                  accusantium perspiciatis ratione.
-                </p>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Perspiciatis aperiam libero maiores magni iure in numquam quos
-                  qui, quod pariatur sunt rerum possimus. Quos soluta magni
-                  optio voluptas placeat error?
-                </p>
-              </div>
-              <button
-                type="button"
-                class="btn button primary-button text-uppercase"
-              >
-                Download Cv
-              </button>
+
+            <div class="mb-8">
+                <h2 class="text-lg font-bold mb-4">Experience</h2>
+                <div class="border-2 border-gray-400 p-4 space-y-4">
+                    <div class="space-y-1">
+                        <h3 class="font-semibold">Full Stack Engineer</h3>
+                        <p class="text-sm text-gray-600">
+                            Quick Verse | Feb 2025 - Jul 2025
+                        </p>
+                        <p class="text-xs">
+                            Developed hyperlocal delivery cross-platform mobile
+                            applications using React Native, overseeing the
+                            entire development lifecycle. Utilized Redux and
+                            Zustand for state management and assisted in backend
+                            development with Java. Leveraged Expo for
+                            streamlined development and implemented file-based
+                            routing and the Reanimated library.
+                        </p>
+                    </div>
+                    <div class="space-y-1">
+                        <h3 class="font-semibold">Full Stack Developer</h3>
+                        <p class="text-sm text-gray-600">
+                            Baaz | Feb 2024 - Feb 2025
+                        </p>
+                        <p class="text-xs">
+                            Developed scalable solutions using React and React
+                            Native with JavaScript and TypeScript. Built
+                            dynamic, responsive web interfaces and created
+                            cross-platform mobile applications focusing on
+                            optimized performance and smooth user experiences.
+                        </p>
+                    </div>
+                    <!-- <div class="space-y-1">
+                        <h3 class="font-semibold">Freelancer</h3>
+                        <p class="text-sm text-gray-600">
+                            fiverr/behance | Apr 2023
+                        </p>
+                        <p class="text-xs">
+                            Collaborated with a partner to build and deploy
+                            responsive, full-stack websites for small business
+                            clients. Engineered modern user interfaces using
+                            React.js and Tailwind CSS.
+                        </p>
+                    </div> -->
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- ################################## End About area ################################################# -->
-
-      <!-- ################################## Start Brand area ############################################### -->
-
-      <section class="brand-area">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-6 col-lg-12 col-md-12">
-              <div class="first-row row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo1.png" alt="brand1" />
-                  </div>
+            <div class="mb-8">
+                <h2 class="text-lg font-bold mb-4">My Projects</h2>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                >
+                    <div class="border-2 border-gray-400 p-4">
+                        <a
+                            href="http://github.com/ankit705yadav/NammaBhasa"
+                            target="_blank"
+                            class="block"
+                        >
+                            <img
+                                src="https://placehold.co/400x250/ccc/333?text=NammaBhasa"
+                                alt="NammaBhasa"
+                                class="w-full h-auto object-cover mb-4"
+                            />
+                            <h3 class="text-base font-bold mb-1">NammaBhasa</h3>
+                            <p class="text-xs text-gray-500">
+                                Tags: TypeScript, React-native, Springboot,
+                                Java, PostgreSQL
+                            </p>
+                            <ul
+                                class="text-sm text-gray-700 mt-2 leading-relaxed list-disc list-inside space-y-1"
+                            >
+                                <li>
+                                    Clean, intuitive interface for an effortless
+                                    learning experience.
+                                </li>
+                                <li>
+                                    Interactive flashcards and simple games to
+                                    reinforce knowledge.
+                                </li>
+                                <li>
+                                    Personal progress tracking and a public
+                                    leaderboard.
+                                </li>
+                                <li>
+                                    100% ad-free environment to maintain focus.
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="border-2 border-gray-400 p-4">
+                        <a
+                            href="https://full-stack-real-estate-roan.vercel.app/"
+                            target="_blank"
+                            class="block"
+                        >
+                            <!-- <img
+                                src="https://github.com/ankit705yadav/Full-stack-real-estate/assets/90278910/ff09160b-a52e-4a97-88bc-138a7fd70a92"
+                                alt="East View"
+                                class="w-full h-auto object-cover mb-4"
+                            /> -->
+                            <img
+                                src="https://placehold.co/400x250/ccc/333?text=East View"
+                                alt="East View"
+                                class="w-full h-auto object-cover mb-4"
+                            />
+                            <h3 class="text-base font-bold mb-1">East View</h3>
+                            <p class="text-xs text-gray-500">
+                                Tags: TypeScript, React, ExpressJS, restAPI,
+                                MongoDB
+                            </p>
+                            <ul
+                                class="text-sm text-gray-700 mt-2 leading-relaxed list-disc list-inside space-y-1"
+                            >
+                                <li>
+                                    Intuitive navigation and detailed listings
+                                    for property buyers.
+                                </li>
+                                <li>
+                                    Easy-to-use tools for sellers to showcase
+                                    properties.
+                                </li>
+                                <li>
+                                    A secure platform for transparent and smooth
+                                    transactions.
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="border-2 border-gray-400 p-4">
+                        <a
+                            href="https://repsets.vercel.app/"
+                            target="_blank"
+                            class="block"
+                        >
+                            <!-- <img
+                                src="https://github.com/ankit705yadav/portfolio-updated/assets/90278910/b1a7cabd-ab9c-4082-8ffa-070c1dadcab2"
+                                alt="Reps"
+                                class="w-full h-auto object-cover mb-4"
+                            /> -->
+                            <img
+                                src="https://placehold.co/400x250/ccc/333?text=Reps"
+                                alt="Reps"
+                                class="w-full h-auto object-cover mb-4"
+                            />
+                            <h3 class="text-base font-bold mb-1">Reps</h3>
+                            <p class="text-xs text-gray-500">
+                                Tags: JavaScript, html, css, restAPI
+                            </p>
+                            <ul
+                                class="text-sm text-gray-700 mt-2 leading-relaxed list-disc list-inside space-y-1"
+                            >
+                                <li>
+                                    MERN stack app to track and monitor workout
+                                    progress.
+                                </li>
+                                <li>
+                                    Enables users to log exercises and achieve
+                                    fitness goals.
+                                </li>
+                                <li>
+                                    Built for a responsive and user-friendly
+                                    experience.
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo2.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo3.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo4.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo5.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo6.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo7.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo8.png" alt="brand1" />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">
-                    <img src="./img/brands/logo9.png" alt="brand1" />
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="col-xl-6 col-lg-12 col-md-12">
-              <div class="experience-area">
-                <div class="d-flex flex-row years-area">
-                  <h2 class="p-3 years">01</h2>
-                  <h2>
-                    <span>Years</span>
-                    <span>Experience</span>
-                    <span>Working</span>
-                  </h2>
-                </div>
-                <div class="d-flex flex-row flex-wrap call-area">
-                  <span><i class="fa-solid fa-phone fa-3x px-3"></i></span>
-                  <div class="call-now">
-                    <a href="#" class="text-uppercase h4 font-roboto"
-                      >Call Now</a
+
+            <div class="border-2 border-gray-400 p-4">
+                <h2 class="text-lg font-bold mb-4">
+                    Available For Freelancing
+                </h2>
+                <h3 class="font-bold mb-2">Contact Me</h3>
+                <div class="flex items-center space-x-2 mb-2">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="w-4 h-4 text-blue-600"
                     >
-                    <span class="font-roboto py-2">(+91)-9116969765</span>
-                  </div>
+                        <rect width="20" height="16" x="2" y="4" rx="2" />
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <a
+                        href="mailto:ankit705yadav@gmail.com"
+                        class="text-sm hover:text-gray-900 transition-colors"
+                    >
+                        ankit705yadav@gmail.com
+                    </a>
                 </div>
-                <div class="bg-panel"></div>
-              </div>
+                <div class="flex items-center space-x-2">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="w-4 h-4 text-blue-600"
+                    >
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                        />
+                    </svg>
+                    <a
+                        href="tel:+916362189122"
+                        class="text-sm hover:text-gray-900 transition-colors"
+                    >
+                        +91 6362189122
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-
-      <!-- ################################## Start Brand area ############################################### -->
-
-      <!-- ################################## Start Services area ############################################ -->
-
-      <section class="services-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center services-title">
-              <h1 class="text-upperxase title-text">Services offered</h1>
-              <p class="para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-                ullam quasi. In mollitia voluptate dicta sit aliquid ad culpa
-                nobis?
-              </p>
-            </div>
-          </div>
-          <div class="container services-list">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="services">
-                  <div class="services-img text-center py-4">
-                    <img src="./img/services/s1.png" alt="services1" />
-                  </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title text-uppercase font-roboto">
-                      Wp Developer
-                    </h5>
-                    <p class="card-text text-secondary">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae sequi et nisi doloribus Lorem, ipsum.?
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="services">
-                  <div class="services-img text-center py-4">
-                    <img src="./img/services/s2.png" alt="services1" />
-                  </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title text-uppercase font-roboto">
-                      UX/UI design
-                    </h5>
-                    <p class="card-text text-secondary">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae sequi et nisi doloribus Lorem, ipsum.?
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="services">
-                  <div class="services-img text-center py-4">
-                    <img src="./img/services/s3.png" alt="services1" />
-                  </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title text-uppercase font-roboto">
-                      Web Design
-                    </h5>
-                    <p class="card-text text-secondary">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae sequi et nisi doloribus Lorem, ipsum.?
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="services">
-                  <div class="services-img text-center py-4">
-                    <img src="./img/services/s4.png" alt="services1" />
-                  </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title text-uppercase font-roboto">
-                      SEO optimize
-                    </h5>
-                    <p class="card-text text-secondary">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae sequi et nisi doloribus Lorem, ipsum.?
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ################################## End Services area ############################################## -->
-      <!-- ################################## Start Project Area ############################################# -->
-
-      <section class="project-area">
-        <div class="container">
-          <div class="project-title pb-5">
-            <h1 class="text-uppercase title-h1">Recently Done Project</h1>
-            <h1 class="text-uppercase title-h1">Quality Work</h1>
-          </div>
-
-          <div class="button-group">
-            <button type="button" class="active" id="btn1" data-filter="*">
-              All
-            </button>
-            <button type="button" data-filter=".popular">Popular</button>
-            <button type="button" data-filter=".latest">Latest</button>
-            <button type="button" data-filter=".following">Following</button>
-            <button type="button" data-filter=".upcoming">Upcoming</button>
-          </div>
-
-          <div class="row grid">
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                    <img
-                      src="./img/portfolio/p1.jpg"
-                      alt="portfolio-1"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Minimul Desing</h4>
-                  <span class="text-secondary">Latest, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p2.jpg">
-                    <img
-                      src="./img/portfolio/p2.jpg"
-                      alt="portfolio-2"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Paint Wall</h4>
-                  <span class="text-secondary">Popular, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                    <img
-                      src="./img/portfolio/p3.jpg"
-                      alt="portfolio-3"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Female light</h4>
-                  <span class="text-secondary">Popular, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p4.jpg">
-                    <img
-                      src="./img/portfolio/p4.jpg"
-                      alt="portfolio-4"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Fourth Air</h4>
-                  <span class="text-secondary">Upcoming, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p5.jpg">
-                    <img
-                      src="./img/portfolio/p5.jpg"
-                      alt="portfolio-5"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Muliple fown</h4>
-                  <span class="text-secondary">Upcoming, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p6.jpg">
-                    <img
-                      src="./img/portfolio/p6.jpg"
-                      alt="portfolio-6"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Together sign</h4>
-                  <span class="text-secondary">Following, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p7.jpg">
-                    <img
-                      src="./img/portfolio/p7.jpg"
-                      alt="portfolio-7"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Green Heaven</h4>
-                  <span class="text-secondary">Following, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p8.jpg">
-                    <img
-                      src="./img/portfolio/p8.jpg"
-                      alt="portfolio-8"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Fly Male</h4>
-                  <span class="text-secondary">Following, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="./img/portfolio/p9.jpg">
-                    <img
-                      src="./img/portfolio/p9.jpg"
-                      alt="portfolio-9"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Camera Lens</h4>
-                  <span class="text-secondary">Upcoming, Portfolio</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ################################## End Project Area ############################################# -->
-      <!-- ################################## Start About Me Area ##########################################-->
-
-      <section class="about-area">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-12">
-              <div class="about-title">
-                <h1 class="text-uppercase title-h1">Client say about me</h1>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  debitis temporibus sunt culpa quisquam optio eos soluta facere
-                  ea deleniti.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container carousel py-lg-5">
-          <div class="owl-carousel owl-theme">
-            <div class="client row">
-              <div class="col-lg-4 col-md-12 client-img">
-                <img src="./img/testimonials/t1.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                <h4 class="text-uppercase">John Martinn</h4>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis sint aut cupiditate, possimus suscipit enim.
-                </p>
-              </div>
-            </div>
-            <div class="client row">
-              <div class="col-lg-4 col-md-12 client-img">
-                <img src="./img/testimonials/t2.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                <h4 class="text-uppercase">Matt hill</h4>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis sint aut cupiditate, possimus suscipit enim.
-                </p>
-              </div>
-            </div>
-            <div class="client row">
-              <div class="col-lg-4 col-md-12 client-img">
-                <img src="./img/testimonials/t1.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                <h4 class="text-uppercase">John Martinn</h4>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis sint aut cupiditate, possimus suscipit enim.
-                </p>
-              </div>
-            </div>
-            <div class="client row">
-              <div class="col-lg-4 col-md-12 client-img">
-                <img src="./img/testimonials/t2.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                <h4 class="text-uppercase">Matt hill</h4>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis sint aut cupiditate, possimus suscipit enim.
-                </p>
-              </div>
-            </div>
-            <div class="client row">
-              <div class="col-lg-4 col-md-12 client-img">
-                <img src="./img/testimonials/t1.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                <h4 class="text-uppercase">John Martinn</h4>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis sint aut cupiditate, possimus suscipit enim.
-                </p>
-              </div>
-            </div>
-            <div class="client row">
-              <div class="col-lg-4 col-md-12 client-img">
-                <img src="./img/testimonials/t2.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                <h4 class="text-uppercase">Matt hill</h4>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis sint aut cupiditate, possimus suscipit enim.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ################################## End About Me Area ##########################################-->
-
-      <!-- ################################## Start Subscribe me Area #################################### -->
-
-      <section class="subscribe-us-area">
-        <div class="container subscribe">
-          <div class="row">
-            <div class="col-lg-12 text-center subscribe-title">
-              <h4 class="text-uppercase">Get Update From Anywhere</h4>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-                optio magnam quia.
-              </p>
-            </div>
-          </div>
-          <div class="d-sm-flex justify-content-center">
-            <form class="w-50">
-              <div class="row d-flex flex-row flex-wrap">
-                <div class="col input-textbox">
-                  <input
-                    type="text"
-                    name=""
-                    id="txtemail"
-                    class="form-control"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="col">
-                  <div class="btn-submit">
-                    <button type="submit" class="btn btn-success float-right">
-                      Subscribe
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-
-      <!-- ################################## End Subscribe me Area #################################### -->
-    </main>
-    <!-- #################################### End Main Area #################################################-->
-
-    <footer class="footer-area">
-      <div class="container">
-        <div class="">
-          <div class="site-logo text-center py-4">
-            <a href="#"><img src="./img/logo.png" alt="" /></a>
-          </div>
-          <div class="social text-center">
-            <h5 class="textuppercase">Follow Me</h5>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="https://twitter.com/ankit705yadav"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </div>
-          <div class="copyrights text-center">
-            <p class="para">
-              copyright ©2022 All rights reserved
-              <a href=""
-                ><span style="color: var(--primary-color)"
-                  >ankit705yadav</span
-                ></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap js file -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- isotope js library -->
-    <script src="./vendor/isotope/isotope.min.js"></script>
-
-    <!-- Magnific popup script file -->
-    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
-
-    <!-- owl-carsoul js file -->
-    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
-
-    <!-- costom js file -->
-    <script src="./js/main.js"></script>
-  </body>
+    </body>
 </html>
